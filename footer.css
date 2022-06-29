@@ -1,0 +1,8 @@
+.footer {display: flex;flex-direction: row;}
+.footer {color: white;background-color: #36383f;}
+.footer > .cp-teams {border:2px solid gray;padding: 18px 104px;}
+.footer > .cp-education {border:2px solid gray;padding: 18px 105px;}
+.footer > .cp-privacy {border:2px solid gray;padding: 18px 105px;}
+.footer > .cp-writing {border:2px solid gray;padding: 18px 104px;}
+/* start of black space */
+.bspace {width: 100%;height: 180px;background-color: black;}

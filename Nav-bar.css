@@ -1,0 +1,37 @@
+.Nav-bar {background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 25px 20px}
+body {margin: 0%;font-family: 'Ubuntu Condensed', sans-serif;}
+/* Left Side */
+/*codepen logo*/
+.Nav-bar > .codepen-logo {background-color: black; background-size: cover;}
+.Nav-bar > .codepen-logo img{align-content: flex-start;}
+/*codepen links*/
+.Nav-bar > .left-side > .Nav-links {display: flex;flex-direction: row; justify-content: space-between;}
+.Nav-bar > .left-side > .Nav-links a {color: white;text-decoration: none;}
+.Nav-bar > .left-side > .Nav-links {font-weight: bold;margin-top: 20px;}
+    .Nav-bar > .left-side > .Nav-links > .cp-pens {padding: 0px 10px 0px 30px;margin-top: -16px;margin-right: -31px;}
+    .Nav-bar > .left-side > .Nav-links > .cp-pens > .explore a {font-size: medium;}
+    .Nav-bar > .left-side > .Nav-links > .cp-projects {padding: 0px 10px;}
+    .Nav-bar > .left-side > .Nav-links > .cp-posts {padding: 0px 0px;}
+    .Nav-bar > .left-side > .Nav-links > .cp-collections {padding: 0px 10px;}
+    .Nav-bar > .left-side > .Nav-links > .cp-spark {padding: 0px 10px;font-weight: 100;}
+    .Nav-bar > .left-side > .Nav-links > .cp-spark a {color:grey;}
+    .custom-select {position: relative; font-family: Arial, Helvetica, sans-serif;}
+    .custom-select select {color: gray;background-color: black;border-block: 0px; border-inline: 0px;}
+    .custom-select select a{text-decoration: none;}
+
+/* Right side */
+.Nav-bar > .right-side {display: flex; flex-direction: row; grid-gap: 22px;margin-left: 306px;}
+.Create {color: white;background-color: #36383f;}
+.Nav-bar > .right-side > .Create {color: white;background-color: #36383f; font-weight: bold;border-radius: 2px;
+    padding: 12px 20px;background-color: #36383f;}
+.Create select {color:#49c375;background-color: #36383f;border-block: 0px; border-inline: 0px;font-weight: 600;}
+.Nav-bar > .right-side > .glass-icon i {color: dimgray;font-size: 2em;font-family:"Font Awesome 5 Free";font-size: 35px;}
+.Nav-bar > .right-side > .cp-login a {color: white;text-decoration: none;background-color:#36383f;}
+.Nav-bar > .right-side > .cp-login {font-weight: bold; border-radius: 2px;
+    padding: 12px 20px;background-color: #36383f;}
+.Nav-bar > .right-side > .cp-signup a {color: white;text-decoration: none;background-color: #36383f;}
+.Nav-bar > .right-side > .cp-signup {font-weight: bold;border-radius: 2px;
+    padding: 12px 20px;background-color: #36383f;}

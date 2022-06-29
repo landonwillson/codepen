@@ -1,0 +1,17 @@
+.Main-page {background-color:#36383f;background-size: cover;}
+.Main-page {display: flex;flex-direction: row;}
+.Main-page {box-shadow:inset -12px -20px 120px 35px #111215;}
+/* left side */
+.Main-page > .body-left {display: flex;flex-direction: column;height: 384px;width: 617px;}
+.Main-page > .body-left > .left-body-text {margin-left: 92px;font-weight: 100;}
+.Main-page > .body-left > .left-body-text > .lb-head {color: white;margin-top: 42px;font-size: xx-large;}
+.Main-page > .body-left > .left-body-text > .lb-paragraph {color: lightgray;margin-top: 18px;font-size:x-large ;}
+.Main-page > .body-left > .buttons {display: flex;flex-direction: row;justify-content: space-evenly;
+    font-size: x-large;margin-left: 2px;margin-top: 22px;}
+.Main-page > .body-left > .buttons > .signupfree {background-color:#4bce79; padding: 9px 13px;border-radius: 3px;}
+.Main-page > .body-left > .buttons > .learnmore {color: white;background-color: black;padding: 9px 14px;border-radius: 3px;}
+/* right side */
+.Main-page > .body-right {justify-content: right;margin-left: 429px;margin-top: 34px;}
+.Main-page > .body-right > .pictext {color: white;margin-left: 47px;}
+.Main-page > .body-right > .pictext > .blue-bit {color: aqua;background-color: #36383f;}
+.Main-page > .body-right > .picture img{height: 100%;width: 475px;}
